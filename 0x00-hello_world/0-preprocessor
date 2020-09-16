@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -E CFILE > c
+cc -E $CFILE > c

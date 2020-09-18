@@ -17,11 +17,12 @@ int main(void)
 	alphabet[0] = 'a';
 
 	for (i = 0; i < 27; i++)
-{
+	{
 	if (i == 26)
 		alphabet[i] = '\n';
 
 		putchar(alphabet[i]);
 		alphabet[i + 1] = alphabet[i] + 1;
-}
+	}
+	return (0);
 }

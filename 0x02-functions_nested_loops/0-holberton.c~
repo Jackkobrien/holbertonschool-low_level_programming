@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+#include "holberton.h"
+
+char holberton[] = "Holberton";
+char c;
+int i = 0;
+
+int main(void)
+{
+	for (i = 0; i < 9; i++;);
+	{
+	c = holberton[i];
+	_putchar(c);
+	}
+	_putchar('\n');
+
+	return (0);
+}

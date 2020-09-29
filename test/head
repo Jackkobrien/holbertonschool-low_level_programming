@@ -1,0 +1,16 @@
+total 56
+-rw-r--r-- 1 root root    0 Sep 28 18:09 head
+-rwxr--r-- 1 root root   26 Sep 28 18:09 new10
+-rwxr--r-- 1 root root   26 Sep 28 18:08 new10~
+-rw-r--r-- 1 root root    0 Sep 28 18:05 #new10#
+-rwxr--r-- 1 root root   29 Sep 28 18:01 last10
+-rw-r--r-- 1 root root  172 Sep 28 18:00 #2alpha.c#
+-rwxr-xr-x 1 root root 8523 Sep 28 18:00 a.out
+-rw-r--r-- 1 root root  172 Sep 28 18:00 2alpha.c
+-rw-r--r-- 1 root root   51 Sep 28 17:56 print_number.c
+-rw-r--r-- 1 root root  149 Sep 28 17:43 holberton.h
+-rw-r--r-- 1 root root    0 Sep 28 17:43 holberton.h~
+-rwxr--r-- 1 root root   41 Sep 28 17:41 nolines
+-rwxr--r-- 1 root root   41 Sep 28 17:39 nolines~
+-rw-r--r-- 1 root root  122 Sep 28 17:37 alphabet.c
+-rw-r--r-- 1 root root   22 Sep 28 17:34 otherlines

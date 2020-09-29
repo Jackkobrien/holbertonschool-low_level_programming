@@ -12,13 +12,6 @@ void puts2(char *str)
 
 	while (str[len] != '\0' && str[len + 1] != '\0')
 	{
-		if (len == 0)
-		{
-			_putchar(str[0]);
-			len++;
-			continue;
-		}
-
 		if (len % 2 == 0)
 			_putchar(str[len]);
 		len++;

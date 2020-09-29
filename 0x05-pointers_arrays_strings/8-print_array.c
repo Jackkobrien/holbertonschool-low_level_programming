@@ -1,4 +1,10 @@
 #include "holberton.h"
+/**
+ * print_array - prints n elements of array denoted by a
+ *@a: array
+ *@n: elements of the array to print
+ * Return: 0
+ */
 void print_array(int *a, int n)
 {
 	int i;

@@ -18,4 +18,6 @@ char *string_toupper(char *a);
 
 char *cap_string(char *);
 
+char *leet(char *);
+
 #endif

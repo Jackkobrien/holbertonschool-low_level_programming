@@ -1,8 +1,14 @@
+#include "holberton.h"
+/**
+ *cap_string - capitalizes a string
+ *@a:string
+ *Return: a
+ */
 char *cap_string(char *a)
 {
 	int i = 0;
 	int j = 0;
-	char separators[] = {' ', '\t', '\n', ',', ';', '.', '!', '?', '"', '(',
+	char separators[] = {' ', 9, '\n', ',', ';', '.', '!', '?', '"', '(',
 			     ')', '{', '}', '\0'};
 
 	while (a[i] != '\0')

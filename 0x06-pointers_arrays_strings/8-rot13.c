@@ -1,0 +1,16 @@
+char *rot13(char *a)
+{
+	int i = 0;
+	int j = 0;
+	char rotidnex[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+		;
+	char rotcodex[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm"
+		;
+
+	while (a[i] != '\0')
+		for (j = 0; rotindex[j] != '\0'; j++)
+			if (a[i] == rotindex[j])
+				a[i] = rotcodex[j];
+	i++;
+	return (a);
+}

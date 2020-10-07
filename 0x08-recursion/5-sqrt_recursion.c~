@@ -1,0 +1,19 @@
+#include "holberton.h"
+/**
+ *
+ *
+ *
+ */
+int help(int n, int b)
+{
+	if (b * b > n)
+		return (-1);
+	if (n == b * b)
+		return (b);
+	return (help(n, (b+1)));
+}
+
+int _sqrt_recursion(int n)
+{
+	return (help(n, 1));
+}

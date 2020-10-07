@@ -1,0 +1,17 @@
+#include "holberton.h"
+int is_prime_number(int n)
+{
+	int k;
+
+	if (n < 0)
+		n = n * -1;
+	if (n == 1)
+		return (0);
+	k = n % (n - 1);
+
+	if (k == 0)
+		return (0);
+	if (k == 0)
+		return (1);
+	return (is_prime_number(n - 1));
+}

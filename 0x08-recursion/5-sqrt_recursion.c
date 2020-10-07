@@ -12,7 +12,7 @@ int help(int n, int b)
 		return (-1);
 	if (n == b * b)
 		return (b);
-	return (help(n, (b+1)));
+	return (help(n, (b + 1)));
 }
 /**
  *_sqrt_recursion - takes sqrt recursively

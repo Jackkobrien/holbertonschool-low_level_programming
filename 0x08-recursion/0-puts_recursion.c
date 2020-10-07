@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *_puits_recursion - prints a function recursively
+ *_puts_recursion - prints a function recursively
  *@s: str to print
  *Return: null
  */
@@ -13,5 +13,4 @@ void _puts_recursion(char *s)
 	}
 	_putchar(*s);
 	_puts_recursion((s + 1));
-	return;
 }
